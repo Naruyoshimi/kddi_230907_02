@@ -109,20 +109,20 @@ function App() {
             }${a0[i + 6]}${a0[i + 7]}/${a0[i + 3]}/${a0[i + 8]}`
           );
           alert(`Z:${a0}`);
-          var countA = i + 2;
-          var countA_hold = i + 2;
-          while ("," != a0[countA]) {
-            alert(`while countA :${a0[countA]}`);
-            countA++;
-          }
-          var astring = "";
-          alert(`test:countA:${countA}`);
-          alert(`test:countA_hold:${countA_hold}`);
-          for (var inew = countA_hold; inew < countA; inew++) {
-            alert("xxxxxx");
-            astring = astring + a0[inew];
-          }
-          alert(`test:${astring}`);
+          // var countA = i + 2;
+          // var countA_hold = i + 2;
+          // while ("," != a0[countA]) {
+          //   alert(`while countA :${a0[countA]}`);
+          //   countA++;
+          // }
+          // var astring = "";
+          // alert(`test:countA:${countA}`);
+          // alert(`test:countA_hold:${countA_hold}`);
+          // for (var inew = countA_hold; inew < countA; inew++) {
+          //   alert("xxxxxx");
+          //   astring = astring + a0[inew];
+          // }
+          // alert(`test:${astring}`);
           settested(
             (locations[countId].meat = `${a0[i + 2]}: ${a0[i + 4]}${a0[i + 5]}`)
           );
